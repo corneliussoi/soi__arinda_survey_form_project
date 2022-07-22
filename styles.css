@@ -1,21 +1,28 @@
 
 body{
     background-image:url("blue.jpg") ;
+}
 
+h1{
+    font-size: 70px;
 }
    
 .text-center{
+    font-size: 20px;
     color: white;
 }
 .form-group{
     color: white;
+    padding: 10px 10px;
+    line-height: 28px;
 }
 
 .survey-form{
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    padding: 20px;
+    width: 650px;
+    height: 600px;
+    padding: 30px;
     background-color: #2B3856;
 
 }
