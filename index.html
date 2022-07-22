@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+        <h1 id="title" class="text-center">Soi$Arinda Survey Form</h1>
+        <p id="discription" class="description text-center">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-lable" for="name">Name</label>
+                <input id="name" class="form-control" type="text" name="name"  placeholder="Enter your Name" required="">
+            </div>
+            <div class="form-group">
+                <label id="email-lable" for="email">Email</label>
+                <input id="email" class="form-control" type="email" name="email"  placeholder="Enter your Email" required="">
+            </div>
+            <div class="form-group">
+                <label id="number-lable" for="number">Age(optional)</label>
+                <input id="number" class="form-control" type="number" name="age"  placeholder="Age">
+            </div>
+            <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown" class="form-control" name="role" required="">
+                    <option disabled="" selected="" value="">select current role</option>
+                    <option value="student">student</option>
+                    <option value="job">full time job</option>
+                    <option value="leaner">Full Time Leaner</option>
+                    <option value="preferNo">Prefer Not to stay</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>would you recommend someone</p>
+                <label>
+                    <input class="input-radio" name="user-recommend" value="definitely" type="radio" checked="">
+                    Definitely
+                </label>
+            </div>
+
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
