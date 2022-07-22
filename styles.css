@@ -4,10 +4,18 @@ body{
 
 }
    
-
 .text-center{
     color: white;
 }
 .form-group{
     color: white;
+}
+
+.survey-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+    background-color: #2B3856;
+
 }
